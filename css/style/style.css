@@ -155,7 +155,7 @@ body {
 
 .contact .container {
   width: 80%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .contact .container h2 {
@@ -200,7 +200,7 @@ body {
           box-shadow: none;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 10px;
   z-index: 1;
   color: #000;
@@ -211,7 +211,7 @@ body {
   top: 0;
   left: 0;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 14px;
   padding: 0 10px;
   display: block;
   -webkit-transform: 0.5s;
@@ -266,22 +266,27 @@ body {
   resize: none;
 }
 
-.contact input[type="submit"] {
+.contact input[type='submit'] {
   border: none;
   padding: 7px 35px;
   cursor: pointer;
   outline: none;
   background: #FFFF00;
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 2px;
   text-transform: uppercase;
 }
 
-.contact input[type="submit"]:hover {
+.contact input[type='submit']:hover {
   background: #0e6cff;
-  color: #FFD700;
+  color: #ffd700;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+}
+
+.contact .map {
+  margin-top: 5px;
+  padding: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */
